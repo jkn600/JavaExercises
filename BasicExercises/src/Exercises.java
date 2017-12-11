@@ -32,11 +32,7 @@ public class Exercises {
 		System.out.println("** Arrays **");
 		obj.arrays();
 		
-		//Iteration/Arrays
-		System.out.println("** Iteration/Arrays **");
-		obj.iterationArray(obj.arrays());
-		
-		//Iteration/Arrays
+		//Iteration/Arrays 2
 		System.out.println("** Iteration/Arrays 2 **");
 		obj.iterationArrayTwo();
 	}
@@ -80,19 +76,14 @@ public class Exercises {
 	}
 	
 	//Arrays
-	public int[] arrays() {
+	public void arrays() {
 		
 		int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		
-		//System.out.println(paramOp(array[3], array[7], isTorF));
+		System.out.println(paramOp(array[3], array[7], isTorF));
 		
-		return array;
-		
-	}
-	
-	//Iteration/Arrays
-	public void iterationArray(int[] array) {
-		
+		//Iteration/Arrays
+		System.out.println("**Iteration Array**");
 		for(int i = 0; i < 10; i++) {
 			System.out.println(array[i]);
 		}
